@@ -29,7 +29,7 @@ class StudentServiceImplTest {
     void getStudentById() {
         Student studentById = studentService.getStudentById(1);
         assertNotNull(studentById);
-        assertEquals(10, studentById.getAge());
-        assertEquals("Tony", studentById.getName());
+        assertEquals(18, studentById.getAge());
+        assertEquals("cattle", studentById.getName());
     }
 }
